@@ -1,0 +1,13 @@
+# vim: ft=ruby
+
+# Configure distributions to build
+@build_distributions = [
+  'debian:wheezy',
+  'debian:jessie',
+  'debian:squeeze',
+  'ubuntu:precise',
+  'ubuntu:trusty',
+]
+
+# Configure a apt-proxy (warmly recommended)
+#@apt_proxy = ''
